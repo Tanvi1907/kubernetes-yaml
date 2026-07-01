@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: app-config
+
+data:
+  APP_NAME: "MyApp"
+  ENV: "development"
+  DB_HOST: "mysql"
+  DB_PORT: "3306"
